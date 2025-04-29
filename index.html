@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cyber Heist</title>
+  <style>
+    body { margin: 0; overflow: hidden; background: #000; }
+    #game-container { width: 100vw; height: 100vh; }
+    canvas { display: block; margin: 0 auto; }
+  </style>
+</head>
+<body>
+  <div id="game-container"></div>
+
+  <!-- Phaser 3 -->
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3/dist/phaser.js"></script>
+
+   <!-- Math -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.3.0/math.js"></script>
+
+  <!-- Your Scenes -->
+  <script src="js/scenes/BootScene.js"></script>
+  <script src="js/scenes/PreloadScene.js"></script>
+  <script src="js/scenes/MainMenuScene.js"></script>
+  <script src="js/scenes/GameScene.js"></script>
+  <script src="js/scenes/UIScene.js"></script>
+
+  <!-- Main Game Boot -->
+  <script src="js/main.js"></script>
+</body>
+</html>
