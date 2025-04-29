@@ -34,7 +34,6 @@ class UIScene extends Phaser.Scene {
   }
 
   updateQuestion(question) {
-    // Optionally, display the question here in the UI scene
     this.promptText.setText(`Solve: ${question}`);
   }
 

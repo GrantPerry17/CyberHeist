@@ -5,7 +5,6 @@ class BootScene extends Phaser.Scene {
   }
 
   preload() {
-    // optional: small asset for preload screen
     this.load.image('logo', 'assets/images/logo.png');
   }
 
